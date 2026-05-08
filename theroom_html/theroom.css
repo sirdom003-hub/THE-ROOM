@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("https://imgs.search.brave.com/RJ4DV3T4SUTstqPoSrKGIL0Fbqt7mQTmBFrBmES9gVc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNjgv/Mjk1LzIwOS9zbWFs/bC9saWdodC1zdHJl/YW1zLXRocm91Z2gt/YS13aW5kb3ctaWxs/dW1pbmF0aW5nLWEt/ZGFyay1hbmQtdGV4/dHVyZWQtcm9vbS1w/aG90by5qcGc");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h1#main-title {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.button:hover {
+   box-shadow: 0 0 10px #FFFFFF ;
+   text-shadow: 0 0 10px #FFFFFF ;
+}
+
+p#footer-text {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15%;
+    color: #FFFFFF;
+}
