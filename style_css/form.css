@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 h2 {
+    font-weight: bold;
     font-size: 3em;
     text-align: center;
     margin-top: 10%;
@@ -29,15 +34,21 @@ input[type="email"], input[type="password"] {
 }
 
 .login-button {
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 2px solid #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-    
-    font-size: 1.2em;
+    padding: 15px 30px;
+    font-size: 22px;
+    background-color: rgb(45, 246, 246);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: rgb(35, 156, 49);
+    color: white;
 }
 
 .forgot-password {
@@ -47,8 +58,8 @@ input[type="email"], input[type="password"] {
 }
 
 a#forgot-password-link {
-    color: #FFFFFF;
-    text-decoration: underline;
+    color: #ffffff;
+    text-decoration: underline ;
     font-size: 1.2em;
   
 }

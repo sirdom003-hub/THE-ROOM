@@ -12,18 +12,19 @@ document.addEventListener('DOMContentLoaded', function(){
         //Lógica  de validação
         if (email === "teste@theroom.com" && password === "1234") {
             Swal.fire({
-                title: 'Acesso Garantido!',
-                text: 'Bem-vindo ao THE ROOM :)',
+                title: 'guaranteed access!',
+                text: 'Welcome to THE ROOM :)',
                 icon: 'success',
                 confirmButtonColor: '#38bdf8'
             }).then(() => {
-               
-                // window.location.href = "home.html";
+                
+                window.location.href = "home-index.html";
+
             });
         } else {
             Swal.fire({
-                title: 'Erro de Autenticação',
-                text: 'E-mail ou senha incorretos. Tente teste@theroom.com e 1234.',
+                title: 'authentication error',
+                text: 'E-mail or password is incorrect. Try teste@theroom.com and 1234.',
                 icon: 'error',
                 confirmButtonColor: '#ef4444'
             });

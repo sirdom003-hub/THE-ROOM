@@ -7,6 +7,7 @@ body#join-body {
     background-repeat: no-repeat;
     background-color: #000000;
     color: #FFFFFF;
+    font-family: Arial, sans-serif;
 }
 
 p {
@@ -28,20 +29,21 @@ h1#main-title {
 }
 
 .button {
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    border-radius: 12px;
-    border: 2px solid #FFFFFF;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: rgb(45, 246, 246);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .button:hover {
-   box-shadow: 0 0 10px #FFFFFF ;
-   text-shadow: 0 0 10px #FFFFFF ;
+    background-color: rgb(35, 156, 49);
+    color: white;
 }
 
 p#footer-text {
