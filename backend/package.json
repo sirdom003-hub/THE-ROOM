@@ -1,0 +1,25 @@
+{
+  "name": "the-room",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdom003-hub/THE-ROOM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sirdom003-hub/THE-ROOM/issues"
+  },
+  "homepage": "https://github.com/sirdom003-hub/THE-ROOM#readme",
+  "dependencies": {
+    "ws": "^8.20.1"
+  }
+}

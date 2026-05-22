@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style_css/home.css">
+    <link rel="stylesheet" href="../style_css/chat.css">
+</head>
+    <title>Chat</title>
+</head>
+<body>
+    
+    <header>
+        <p class="logo">THE ROOM</p>
+        
+        <nav id="nav-menu">
+            <ul class="nav_links">
+                <li><a href="home-index.html">Home</a></li>
+                <li><a href="index-form.html">Login</a></li>
+                <li><a href="chat.html">Chat</a></li>
+            </ul>
+        </nav>
+    
+        <a class="cta" href="#">Contact</a>
+    </header>
+
+        <section class="container">
+    
+            <section class="login"></section>
+                <h2>Login</h2>
+                <form class="login__form">
+                    <input type="text" class="login__input" placeholder="Username" required>
+                    <button type="submit" class="login__button">Join Chat</button>
+                </form>
+            </section>
+        </section>
+
+        <section class="chat">
+            <section class="chat__messages"></section>
+                <form class="chat__form">
+                    <input type="text" class="chat__input" placeholder="Type your message here..." required>
+                    <button type="submit" class="chat__button">Send</button>
+                </form>
+            </section>
+        </section>
+     <script src="../theroom_js/chat.js"></script>
+
+    <footer>
+        <p>Copyright © 2024 THE ROOM. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
