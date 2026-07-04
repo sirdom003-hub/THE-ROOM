@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(){
                 confirmButtonColor: '#38bdf8'
             }).then(() => {
                 
-                window.location.href = "home-index.html";
+                window.location.href = "mainroom.html";
 
             });
         } else {
